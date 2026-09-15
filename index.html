@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>COMP6012 Week 8 · Threat Intelligence Data Sources</title>
+<meta name="theme-color" content="#f4efe5">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="scrollbar"></div>
+<div class="shell">
+<aside class="rail"><div class="course">COMP6012 · Cyber Threat Intelligence</div><h1>Threat Intelligence<br>Data Sources</h1><div class="week">Week 8 · Analyst Exchange</div><nav><a href="#brief">Briefing</a><a href="#desk1">Source Desk</a><a href="#desk2">OSINT Exchange</a><a href="#desk3">Malware Lab</a><a href="#desk4">Paid Intel</a><a href="#desk5">Data Vault</a><a href="#boardroom">Boardroom</a></nav><div class="casechip"><b>Running case:</b> Northstar Health, a mid-sized healthcare provider building its first formal CTI program.</div></aside>
+<main class="main">
+<div class="ticker"><strong>LIVE FEED</strong><div class="ticker-track"><span>CISA AIS · new phishing indicators</span><span>OTX · malware pulse updated</span><span>DShield · scanning activity rising</span><span>ThreatFox · fresh IoCs</span><span>Internal SIEM · unusual login sequence</span><span>Dark web · exploit chatter under review</span><span>CISA AIS · new phishing indicators</span><span>OTX · malware pulse updated</span><span>DShield · scanning activity rising</span><span>ThreatFox · fresh IoCs</span></div></div>
+<div class="wrap">
+
+<section id="brief" class="hero">
+<div><div class="stamp">Analyst briefing · source selection, OSINT, malware, PTI, storage</div><h2>Not more data.<br>The right data.</h2><p>Threat intelligence succeeds when sources match the organisation’s objectives, threat model, budget, tooling and security maturity. Work through the lecture like an analyst shift: choose sources, inspect OSINT, pull malware evidence, justify paid feeds, then design how intelligence should be stored and reused.</p><div class="rule"></div><div class="three"><div class="panel"><div class="label teal">Outcome 1</div><h4>Select</h4><p>Choose internal, external, shared and paid sources that fit a real CTI requirement.</p></div><div class="panel"><div class="label orange">Outcome 2</div><h4>Evaluate</h4><p>Judge coverage, accuracy, latency, uniqueness, integration effort and ROI.</p></div><div class="panel"><div class="label lime">Outcome 3</div><h4>Structure</h4><p>Turn raw indicators into secure, standardised and retrievable intelligence assets.</p></div></div></div>
+<div class="board"><h3>Northstar Health · incoming intelligence queue</h3><div class="pulsefeed"><div class="pulse"><div class="src">INTERNAL</div><div class="txt">Proxy log shows a new outbound domain after an XSS alert</div><div class="sev">HIGH</div></div><div class="pulse"><div class="src">OTX</div><div class="txt">Pulse links the domain to a credential-stealing campaign</div><div class="sev">NEW</div></div><div class="pulse"><div class="src">CISA</div><div class="txt">Related phishing infrastructure added to public indicators</div><div class="sev">MATCH</div></div><div class="pulse"><div class="src">DARK WEB</div><div class="txt">Seller advertises access to healthcare portals using the same exploit family</div><div class="sev">VERIFY</div></div><div class="pulse"><div class="src">MALWARE</div><div class="txt">Sample exposes SHA256, C2 IP, DNS and spoofed file type</div><div class="sev">IOC</div></div></div><div class="hero-callout">Internal depth + external breadth + quality control beats collecting everything.</div></div>
+</section>
+<div id="sectionsA"></div>
+<div id="sectionsB"></div>
+<div class="footer">COMP6012 · Week 8 · Threat Intelligence Data Sources · Based on the supplied lecture deck.</div>
+</div></main></div>
+<script src="sections-a.js"></script>
+<script src="sections-b.js"></script>
+<script src="app.js"></script>
+</body></html>
